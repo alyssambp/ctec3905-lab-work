@@ -1,0 +1,50 @@
+
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  color: #00264d;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #008B8B;
+  text-align: center;
+}
+
+nav a {
+  color: #FFFFFF;
+  padding: 0.25em 0.5em;
+  text-decoration: underline;
+  margin: 0.5em;
+  transition: background-color 0.7s;
+}
+
+nav a:hover {
+	background-color: #ADD8E6;
+}
+
+body {
+  margin: 0;
+}
+
+header, section, main {
+	overflow: auto;
+}
+
+h2 {
+  color: #00264d;
+  font-size: 20px;
+}
+
+section {
+	background-color: #FFF5EE;
+	color: #00264d;
+	overflow: auto;
+}
+
+nav, main {
+	box-sizing: border-box;
+}
